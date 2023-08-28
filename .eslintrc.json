@@ -13,7 +13,8 @@
     ],
     "parserOptions": {
         "ecmaVersion": 2018,
-        "sourceType": "module"
+        "sourceType": "module",
+        "project": "/Users/tw/VsCodeWorkspace/SMU-Project/ta-management-system/nodejs-backend/tsconfig.json"
     },
     "parser": "@typescript-eslint/parser",
     "plugins": [
