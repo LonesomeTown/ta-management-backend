@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  mysql:
+    build: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: cs7328
+      MYSQL_DATABASE: cs7328
+    ports:
+      - "3307:3306"
