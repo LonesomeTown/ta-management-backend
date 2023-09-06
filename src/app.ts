@@ -46,7 +46,7 @@ app.post( '/user/login', async ( req, res ) => {
     const { username, password } = req.body;
 
     try {
-    // Find the user in the database
+        // Find the user in the database
         const user = await prisma.user.findUnique( { where: { username } } );
 
         if ( !user ) {

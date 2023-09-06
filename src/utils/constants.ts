@@ -1,0 +1,18 @@
+export const NUMBER_OF_MONTHS_LOOKBACK =  3;
+
+export const NUMBER_OF_MONTHS_LOOKFORWARD = 1;
+
+export const NUMBER_OF_MONTHS_LOOKFORWARD_FOR_JOBS = 4;
+
+export enum WorkAreaType {
+    DIRECT =  'direct'
+    , INDIRECT =  'indirect'
+}
+
+export const CLOCK_IN_OUT_CRON_JOB_LOOKBACK_DAYS =  2;
+
+export const CLOCK_IN_OUT_CRON_JOB_ASSIGNMENTS_LOOKBACK_DAYS =  2;
+
+export const CLOCK_IN_OUT_CLEANUP_CRON_JOB_LOOKBACK_DAYS =  14;
+
+export const CLOCK_IN_OUT_ASSIGNMENT_CUTOFF_MINUTES =  4 * 60;
